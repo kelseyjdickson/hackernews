@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import classApp from './AppClass'
 import './App.css';
 
 function App() {
