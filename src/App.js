@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import classApp from './AppClass'
+import AppClass from './AppClass'
 import './App.css';
 
 function App() {
@@ -48,6 +48,7 @@ function App() {
 
       })}
       <h2>{helloWorld}</h2>
+      <AppClass />
       {/* <form onSubmit={handleSubmit}>
         <label>
           Name:
